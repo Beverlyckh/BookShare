@@ -10,9 +10,9 @@ CREATE TABLE users (
     user_Password VARCHAR(50),
     email VARCHAR(80),
     city VARCHAR(30),
-    state CHAR(5),
+    state CHAR(6),
     phone VARCHAR(15),
-    zip VARCHAR(6),
+    zip VARCHAR(7),
     signup_date DATETIME,
     isAdmin INT,-- limited to userid 1 being admin 
     PRIMARY KEY (user_id)
